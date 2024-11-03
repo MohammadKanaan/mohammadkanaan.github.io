@@ -6,7 +6,31 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Mohammad Kanaan",
-  description: "Junior web developer",
+  description: "Junior Web & Mobile developer",
+  keywords: [
+    "web",
+    "mobile",
+    "developer",
+    "junior",
+    "react",
+    "next.js",
+    "flutter",
+    "dart",
+    "typescript",
+    "javascript",
+    "node.js",
+    "express.js",
+    "mongodb",
+    "firebase",
+    "sql",
+    "git",
+    "github",
+    "linkedin",
+    "portfolio",
+    "projects",
+  ],
+  publisher: "Mohammad Kanaan",
+  icons: ["/icons/icon.png"],
 };
 
 export default function RootLayout({
@@ -16,7 +40,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.className} antialiased`}>
-      <body className="min-h-screen flex justify-center bg-[#fff5f5] dark:bg-neutral-900 text-[#3e3e3e] dark:text-[#FFE1BE] transition-colors duration-300">
+      <body className="min-h-screen flex justify-center bg-[#fff5f5] dark:bg-neutral-900 text-primary transition-colors duration-300">
         {children}
       </body>
     </html>

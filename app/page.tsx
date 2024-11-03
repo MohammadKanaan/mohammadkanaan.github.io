@@ -1,6 +1,5 @@
 "use client";
 
-import Nav from "@/components/Nav";
 import ContactMe from "@/components/sections/ContactMe";
 import Home from "@/components/sections/Home";
 import Projects from "@/components/sections/Projects";
